@@ -11,10 +11,7 @@ public class App {
 
 			@Override
 			public void run() {
-				JFrame frame = new JFrame("Hello World");
-				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-				frame.setSize(400, 400);
-				frame.setVisible(true);				
+				new Mainframe();
 			}
 			
 		});
